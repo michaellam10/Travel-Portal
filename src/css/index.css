@@ -1,0 +1,910 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.search-landing__button {
+
+    background-color: rgba(255,255,255,0.2);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #B3B3B3;
+    width: 30%;
+    height: 50px;
+    font-size: 16px;
+    color: #D3D3D3;
+    text-align: center;
+    margin: 25px;
+}
+
+.search-landing__button:hover {
+  background-color: rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.landing-background-vid {
+    position: relative;
+    /*z-index: -99;*/
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.shade {
+  padding-top: 30px;
+  /*z-index: 0;*/
+  position: absolute;
+  text-align: center;
+  height: 50%;
+  width: 70%;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 15px;
+  margin: 0 auto;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%,-25%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shade h1 {
+  font-size: 40px;
+  color: #D3D3D3;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search-landing {
+  width: 60%;
+  color: #D3D3D3;
+}
+
+.search-landing input{
+  border-bottom: solid 1px #B3B3B3;
+  margin: 15px;
+}
+
+.search-page__input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 62.8px;
+    background: transparent;
+    text-align: center;
+    color: #D3D3D3;
+    border: none;
+    font-size: 22px;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #B3B3B3;
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #B3B3B3;
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #B3B3B3;
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #B3B3B3;
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/****************************************/
+
+.slider {
+  position: relative;
+}
+
+.location-header {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: auto !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  z-index: 99;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 700px) {
+  .location-header {
+    width: 100% !important;
+  }
+}
+
+.fa i {
+  /*color: #D3D3D3;*/
+  color: black;
+}
+
+.search-locationpage {
+  width: 60%;
+  margin: 0 auto;
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-frame {
+  height: 700px !important;
+  /*position: relative;*/
+}
+
+.picture {
+  width: 100%;
+  height: 700px !important;
+  /*display: flex !important;
+  justify-content: center !important;*/
+}
+
+/***** StickyNav CSS Styling *****/
+
+.nav {
+    width: 100%;
+    height: 80px;
+    /*background-image: url('http://wallpapercraft.net/wp-content/uploads/2016/08/Photography-zilos-camera-peace-cool-images.jpg');*/
+    background-image: url('http://thefoodetective.com/wp-content/uploads/2016/03/8589130423107-blue-mountains-landscape-wallpaper-hd.jpg');
+    background-position: center;
+    background-size: cover;
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 0;
+    z-index: 99;
+    box-sizing: border-box;
+}
+
+.sticky-nav {
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  /*background-image: url('http://www.silicsoft.com/wp-content/uploads/2014/08/APR14-banner-background.jpg');*/
+  /*background-image: url('https://wallpaperscraft.com/image/dark_spots_texture_background_50355_3840x2160.jpg');*/
+  background-color: rgba(0,0,0,0.8);
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sticky-nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.sticky-nav-buttons a {
+  box-sizing: border-box;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-decoration: none;
+  cursor: default;
+}
+
+.sticky-nav-buttons a:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.sticky-nav-item {
+  height: 100%;
+}
+
+.sticky-nav-item h2 {
+  font-size: 15px !important;
+  font-weight: 300;
+  color: white;
+}
+
+#search {
+  box-sizing: border-box;
+  position: absolute;
+  float: right;
+  margin-right: 0;
+  justify-content: flex-end;
+  right: 20px;
+  top: 5px;
+  color: #D3D3D3;
+  width: auto;
+  border-bottom: solid 1px #B3B3B3;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 62.8px;
+    background: transparent;
+    text-align: right;
+    padding-right: 15px;
+    color: #D3D3D3;
+    border: none;
+    font-size: 22px;
+    margin-right: 10px;
+    align-items: flex-end;
+}
+
+i.fa-search {
+  margin-right: 10px;
+}
+
+input.search-input::-webkit-input-placeholder { /* Chrome */
+  color: #B3B3B3;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 10px;
+  padding-top: 0 !important;
+  text-align: right;
+}
+
+input.search-input:-ms-input-placeholder { /* IE9+ */
+  color: #B3B3B3;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 10px;
+  padding-top: 0 !important;
+  text-align: right;
+}
+
+input.search-input::-moz-placeholder  { /* Chrome */
+  color: #B3B3B3;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 10px;
+  padding-top: 0 !important;
+  text-align: right;
+}
+
+input.search-input::-webkit-input-placeholder { /* Chrome */
+  color: #B3B3B3;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-right: 10px;
+  padding-top: 0 !important;
+  text-align: right;
+}
+
+
+#row1 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+#nav-collapsible {
+  display: none;
+  color: #D3D3D3;
+
+}
+
+#expanded-nav-menu-shell {
+  background-image: url('http://thefoodetective.com/wp-content/uploads/2016/03/8589130423107-blue-mountains-landscape-wallpaper-hd.jpg');
+  background-position: left;
+  background-size: auto;
+  position: absolute; /*renders menu correctly*/
+  width: 100px;
+}
+
+#expanded-nav-menu {
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.9);
+  text-align: center;
+  /*padding: 15px;*/
+}
+
+#expanded-nav-menu a {
+  text-decoration: none;
+}
+
+#expanded-nav-menu .sticky-nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+#expanded-nav-menu .sticky-nav-item:hover {
+  background-color: rgba(0,0,0,1);
+}
+
+#expanded-nav-menu .sticky-nav-item h2 {
+  font-size: 12px !important;
+}
+
+@media screen and (max-width: 1150px){
+  .nav {
+    height: 160px;
+    padding-bottom: 10px;
+  }
+
+  .sticky-nav {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    padding-bottom: 10px;
+    background-color: rgba(0,0,0,0.7);
+  }
+
+  #search {
+    position: static !important;
+  }
+}
+
+@media screen and (max-width: 850px){
+
+  #map form {
+    width: 250px !important;
+    text-align: right;
+  }
+
+  #PlacesAutocomplete__root input {
+    box-sizing: border-box !important;
+    width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #row1 {
+    background-color: white;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #welcome {
+    height: 50% !important;
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .welcome-gif {
+    width: 60% !important;
+    height: 125px !important;
+  }
+
+  #map {
+    height: 50% !important;
+    width: 80% !important;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    position: relative;
+    margin-top: 40px;
+  }
+
+  .weather {
+    height: 1000px !important;
+  }
+
+  .rest-of-week {
+    height: 500px !important; /* Double's current height of Rest of Week div*/
+    flex-wrap: wrap;
+  }
+
+  .day {
+    width: 33.333% !important;
+    height: 250px !important;
+  }
+
+  .today {
+    flex-direction: column;
+    height: 500px !important;
+
+    align-items: center;
+  }
+
+  .summary {
+    height: 50% !important;
+    justify-content: center;
+    border-right: 0 !important;
+    /*width: 90% !important;*/
+  }
+
+  .hourly {
+    height: 50% !important;
+    width: 100% !important;
+  }
+
+  #map form {
+    width: 800px !important;
+    text-align: right;
+  }
+
+  #PlacesAutocomplete__root input {
+    box-sizing: border-box !important;
+    width: 800px !important;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .sticky-nav-buttons {
+    display: none;
+  }
+
+  .nav {
+    height: 80px;
+    position: relative;
+  }
+
+  .sticky-nav {
+    height: 80px;
+    flex-direction: row;
+  }
+
+  .sticky-nav-search {
+    position: absolute;
+    right: 20px;
+  }
+
+  #nav-collapsible {
+    position: absolute;
+    left: 30px;
+    display: block;
+    visibility: visible;
+  }
+
+  #nav-icon {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .day {
+    width: 50% !important;
+  }
+
+  .weather {
+    height: 1250px !important;
+  }
+  .rest-of-week {
+    height: 750px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+    .day {
+      width: 100% !important;
+    }
+
+    .weather {
+      height: 2000px !important;
+    }
+
+    .rest-of-week {
+      height: 1500px !important;
+    }
+}
+
+/*@media screen and (max-width: 600px) {
+
+  .day {
+    width: 190px !important;
+  }
+
+  .rest-of-week {
+    height: 750px;
+  }
+}*/
+
+#welcome {
+  height: 100%;
+  width: 50% !important;
+  text-align: center;
+  padding: 25px;
+}
+
+
+#map {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+}
+
+.small-carousel {
+  width: 50%;
+  height: 100%;
+}
+
+.small-carousel .slider-frame {
+  height: 500px !important;
+  width: 100% !important;
+  /*position: relative;*/
+}
+
+.small-carousel .picture {
+  width: 100% !important;
+  height: 500px !important;
+  /*display: flex !important;
+  justify-content: center !important;*/
+}
+
+
+
+/******* Weather CSS Styling *******/
+
+.weather {
+  width: 100%;
+  height: 500px;
+  background-image: url('http://wallpapercraft.net/wp-content/uploads/2016/08/Photography-zilos-camera-peace-cool-images.jpg');
+  background-position: bottom;
+  background-size: cover;
+
+  /*border-radius: 10px;*/
+  border: 2px solid black;
+}
+
+.today {
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  border-bottom: solid 2px black;
+  display: flex;
+  background-color: rgba(0,0,0,0.8);
+  /*border-radius: 10px;*/
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.todayName h2 {
+  margin: 0;
+}
+
+
+.summary {
+
+  /*width: 300px;*/
+  width: 25%;
+  min-width: 300px;
+  height: 100%;
+  border-right: solid 1px black;
+  color: #D3D3D3;
+  box-sizing: border-box;
+}
+
+.today-header {
+  width: 100%;
+  /*height: 30px;*/
+  height: 30%;
+  text-align: center;
+}
+
+.today-header h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+
+.today-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  padding-top: 10px;
+}
+
+.hourly {
+  box-sizing: border-box;
+  /*width: 900px;*/
+  width: 75%;
+  height: 100%;
+  display: flex;
+  overflow: scroll;
+  padding-top: 25px;
+  /*padding-right: 20px;*/
+  padding-left: 20px;
+  color: #D3D3D3;
+  background-color: rgba(0,0,0,0.6);
+}
+
+
+.hour-icon i {
+  margin: 20px;
+}
+
+.hour {
+  margin: 5px;
+  margin-top: 05px;
+  text-align: center;
+}
+
+.hour p {
+  font-size: 13px;
+}
+
+.hour-icon {
+  font-size: 30px;
+}
+
+.summary h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.summary h3 {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.left {
+  box-sizing: border-box;
+  width: 50%;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+}
+
+.currentDescription {
+  margin-top: 20px;
+}
+
+.currentIcon {
+  margin-top: 10px;
+}
+.right {
+  box-sizing: border-box;
+  width: 50%;
+  /*padding: 20px;*/
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+}
+
+.right .wi {
+  font-size: 50px;
+  /*margin-bottom: 30px;*/
+}
+/*Divide into 6 equal width divs for next six days of the week*/
+
+.rest-of-week {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: rgba(0,0,0,0.8);
+  /*border-radius: 10px;*/
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.day {
+  box-sizing: border-box;
+  width: 16.667%;
+  /*min-width: 200px;*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  /*border-radius: 10px;*/
+  border-right: none;
+  border-top: none;
+  padding: 15px;
+  color: white;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.day-name h3 {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.weather-icon i {
+  font-size: 30px;
+  margin: 25px;
+}
+
+.wi .wi-raindrops {
+  margin: 0px;
+}
+
+.daily-temp p {
+  margin: 0;
+}
+
+.hour .temperature p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+p.low {
+  color: #B3B3B3;
+}
+
+.precipitation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.precipitation p {
+  font-size: 10px;
+}
+
+
+/***** BackToTopButton CSS Styling *****/
+
+.back-to-top {
+
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff9000;
+
+}
+
+.back-to-top i {
+  font-size: 60px;
+}
+
+#gallery:before {
+  margin-top: -80px;
+  display: block;
+  content: " ";
+  height: 80px;
+  visibility: none;
+}
+
+#weather:before {
+  margin-top: -80px;
+  display: block;
+  content: " ";
+  height: 80px;
+  visibility: none;
+}
+
+#activities:before {
+  margin-top: -80px;
+  display: block;
+  content: " ";
+  height: 80px;
+  visibility: none;
+}
+
+#restaurants:before {
+  margin-top: -80px;
+  display: block;
+  content: " ";
+  height: 80px;
+  visibility: none;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.welcome-gif {
+  width: 80%;
+  height: 200px;
+}
+
+.welcome-header h1 {
+  margin-bottom: 0;
+}
+
+.welcome-gif {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.welcome-time {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+.welcome-time h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.welcome-date h2 {
+  margin-top: 0px;
+}
+
+#PlacesAutocomplete__root {
+  box-sizing: border-box !important;
+}
+
+#PlacesAutocomplete__root input {
+  box-sizing: border-box !important;
+  width: 400px !important;
+}
+
+@media screen and (max-width: 1050px){
+
+  #map form {
+    width: 300px !important;
+  }
+
+  #PlacesAutocomplete__root input {
+    box-sizing: border-box !important;
+    width: 300px !important;
+  }
+}
+
+
+@media screen and (max-width: 465px){
+
+  #map form {
+    width: 200px !important;
+    text-align: right;
+  }
+
+  #PlacesAutocomplete__root input {
+    box-sizing: border-box !important;
+    width: 200px !important;
+  }
+}

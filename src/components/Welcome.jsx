@@ -18,7 +18,7 @@ class Welcome extends React.Component {
   }
 
   fetchGif = () => {
-    fetch("http://api.giphy.com/v1/gifs/random?tag=excited&api_key=f3a40b7cf2f249f5a362d3af42d5ea8f")
+    fetch("https://api.giphy.com/v1/gifs/random?tag=excited&api_key=f3a40b7cf2f249f5a362d3af42d5ea8f")
     .then((res) => res.json())
     .then((gif) => {
       var gif_url = gif.data.image_url
